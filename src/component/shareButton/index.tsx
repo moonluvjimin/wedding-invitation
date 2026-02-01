@@ -55,16 +55,17 @@ export const ShareButton = () => {
               {
                 title: "초대장 보기",
                 link: {
-                  mobileWebUrl:
-                    window.location.protocol +
-                    "//" +
-                    window.location.host +
-                    baseUrl,
-                  webUrl:
-                    window.location.protocol +
-                    "//" +
-                    window.location.host +
-                    baseUrl,
+                  mobileWebUrl: "http://moonluvjimin.github.io/wedding-invitation",
+                    
+             //       window.location.protocol +
+              //      "//" +
+              //      window.location.host +
+             //       baseUrl,
+                  webUrl: "http://moonluvjimin.github.io/wedding-invitation",
+                //    window.location.protocol +
+               //     "//" +
+              //      window.location.host +
+              //      baseUrl,
                 },
               },
             ],
