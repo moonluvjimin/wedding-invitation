@@ -25,7 +25,7 @@ export const ShareButton = () => {
           }
 
           kakao.Share.sendDefault({
-            objectType: "location",
+            objectType: "feed",
             address: SHARE_ADDRESS,
             addressTitle: SHARE_ADDRESS_TITLE,
             content: {
@@ -65,6 +65,13 @@ export const ShareButton = () => {
                     "//" +
                     window.location.host +
                     baseUrl,
+                },
+              },
+              {
+                title: "위치 보기",
+                link: {
+                  mobileWebUrl: "https://naver.me/F42MDXLM",
+                  webUrl: "https://naver.me/F42MDXLM",
                 },
               },
             ],
