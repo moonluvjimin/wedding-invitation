@@ -24,6 +24,8 @@ export const LOCATION_ADDRESS = "서울시 영등포구 여의동로7길 5"
 export const SHARE_ADDRESS = LOCATION
 export const SHARE_ADDRESS_TITLE = LOCATION
 
+export const SITE_URL = 'https//moonluvjimin.github.io/wedding-invitation'
+
 // 네이버 지도 및 카카오 네비게이션에 사용할 좌표. [경도, 위도] 형식.
 export const WEDDING_HALL_POSITION = [126.9304619, 37.5276925]
 
