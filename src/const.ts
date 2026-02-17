@@ -18,7 +18,7 @@ export const HOLIDAYS = [5]
 
 
 export const LOCATION = "서울 영등포구 여의동로7길 5 한전 남서울본부"
-export const LOCATION_ADDRESS = "서울시 영등포구 여의동로7길 5, 9층"
+export const LOCATION_ADDRESS = "서울시 영등포구 여의동로7길 5, 9층 여의나루 홀"
 
 // 카카오톡 공유 시 위치 정보로 사용할 주소.
 // LOCATION 과 동일하게 설정해도 무방하나, 필요에 따라 좀 더 상세히 작성 가능.
@@ -49,18 +49,18 @@ export const BRIDE_INFO = [
     relation: "신부",
     name: BRIDE_FULLNAME,
     phone: "010-8239-6958",
-    account: "우리은행 0000000000000",
+    account: "카카오뱅크 3333-07-6006186",
   },
   {
     relation: "신부 아버지",
     name: BRIDE_FATHER,
-    phone: "010-0000-0000",
+    phone: "010-6413-6958",
     account: "하나은행 00000000000",
   },
   {
     relation: "신부 어머니",
     name: BRIDE_MOTHER,
-    phone: "010-0000-0000",
+    phone: "010-3928-6958",
     account: "하나은행 00000000000000",
   },
 ]
@@ -80,13 +80,13 @@ export const GROOM_INFO = [
   {
     relation: "신랑 아버지",
     name: GROOM_FATHER,
-    phone: "010-0000-0000",
-    account: "신한은행 000000000000",
+    phone: "010-4585-8170",
+    account: "경남은행 626-21-0061110",
   },
   {
     relation: "신랑 어머니",
     name: GROOM_MOTHER,
-    phone: "010-0000-0000",
-    account: "국민은행 000000000000",
+    phone: "010-9122-5455",
+    account: " ",
   },
 ]
