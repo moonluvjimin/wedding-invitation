@@ -47,7 +47,9 @@ export const Information2 = () => {
               header: <div className="title">신랑측 계좌번호</div>,
               content: (
                 <>
-                  {GROOM_INFO.filter(({ account }) => !!account).map(
+                  {GROOM_INFO.filter(({ account }) => !!account)
+                    .filter((_, index) => index !== 2) //수정됨 신랑어머니 항목 제외
+                    .map(
                     ({ relation, name, account }) => (
                       <div className="account-info" key={relation}>
                         <div>
