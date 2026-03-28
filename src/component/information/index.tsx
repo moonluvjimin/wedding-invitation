@@ -102,7 +102,9 @@ export const Information2 = () => {
               header: <div className="title">신부측 계좌번호</div>,
               content: (
                 <>
-                  {BRIDE_INFO.filter(({ account }) => !!account).map(
+                  {BRIDE_INFO.filter(({ account }) => !!account)
+                    .slice(0, 1) //신부측 계좌번호 두명 지움
+                    .map(
                     ({ relation, name, account }) => (
                       <div className="account-info" key={relation}>
                         <div>
