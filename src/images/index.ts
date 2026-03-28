@@ -12,7 +12,9 @@ import image10 from "./w10.jpg"
 import image11 from "./w11.jpg"
 import image12 from "./w12.jpg"
 
+
 export const COVER_IMAGE = coverImage
+
 
 export const GALLERY_IMAGES = [
   image1,
