@@ -103,7 +103,7 @@ export const Information2 = () => {
               content: (
                 <>
                   {BRIDE_INFO.filter(({ account }) => !!account)
-                    .filter((_, index) => index !== 1 && index !== 2) //신부측 계좌번호 두명 지움
+                    .filter((_, index) => index !== 2) //신부측 계좌번호 한명 지움
                     .map(
                     ({ relation, name, account }) => (
                       <div className="account-info" key={relation}>
